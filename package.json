@@ -6,12 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:contracts": "jest -i --config ./configs/jest-contracts.config.ts",
+    "deploy:contracts": "node scripts/deploy.js"
   },
   "dependencies": {
+    "@alephium/walletconnect-provider": "0.2.0-rc.1",
+    "@alephium/web3": "0.2.0-rc.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@types/jest": "^27.4.1",
     "next": "12.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.7.0"
   },
   "devDependencies": {
     "@types/node": "18.0.6",
@@ -19,6 +27,7 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.2",
+    "jest": "^28.1.0",
     "typescript": "4.7.4"
   }
 }
