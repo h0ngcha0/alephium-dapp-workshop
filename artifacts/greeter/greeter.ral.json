@@ -1,0 +1,26 @@
+{
+  "sourceCodeSha256": "aaa72ae5b4c73edd09245da84341cf554e1084fa2327648300d07132358bf6ad",
+  "bytecode": "010109010000000102a00002",
+  "codeHash": "39debc1122591f4c96e2f807632acc6d137ea9bba303a4e04476cd8cade35242",
+  "fieldsSig": {
+    "signature": "Contract Greeter(btcPrice:U256)",
+    "names": [
+      "btcPrice"
+    ],
+    "types": [
+      "U256"
+    ]
+  },
+  "eventsSig": [],
+  "functions": [
+    {
+      "name": "greet",
+      "signature": "pub greet()->(U256)",
+      "argNames": [],
+      "argTypes": [],
+      "returnTypes": [
+        "U256"
+      ]
+    }
+  ]
+}

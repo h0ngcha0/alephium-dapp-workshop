@@ -1,0 +1,7 @@
+import "greeter_interface.ral"
+
+Contract Greeter(btcPrice: U256) implements GreeterInterface {
+    pub fn greet() -> U256 {
+        return btcPrice
+    }
+}

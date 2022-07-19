@@ -1,0 +1,22 @@
+{
+  "sourceCodeSha256": "55d9cfb5b4dbdd1fbbc76b7564b7453e59e5fd53fc823963f4a4e116310e9cc7",
+  "bytecodeTemplate": "01010300020014{0}17000c0d160001000d2f0c7b{0}17010c0d160101000d2f0c7b",
+  "fieldsSig": {
+    "signature": "TxScript Main(greeterContractId:ByteVec)",
+    "names": [
+      "greeterContractId"
+    ],
+    "types": [
+      "ByteVec"
+    ]
+  },
+  "functions": [
+    {
+      "name": "main",
+      "signature": "@using(preapprovedAssets=true) pub main()->()",
+      "argNames": [],
+      "argTypes": [],
+      "returnTypes": []
+    }
+  ]
+}
