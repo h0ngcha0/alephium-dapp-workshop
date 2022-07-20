@@ -1,0 +1,36 @@
+* Alephium dApp Workshop
+- What was built
+- Current workflow
+- Opportunities to expose rough edges & get the feedback. Shape DX together!
+** Agenda
+*** Setting up a project
+**** CLI
+npm install @h0ngcha0/alephium-cli -g
+**** Branches
+- [[https://github.com/h0ngcha0/alephium-dapp-workshop/tree/00-dapp-nextjs-boilerplate][00-dapp-nextjs-boilerplate]]
+- [[https://github.com/h0ngcha0/alephium-dapp-workshop/tree/01-add-greeter-contract][01-add-greeter-contract]]
+- [[https://github.com/h0ngcha0/alephium-dapp-workshop/tree/02-update-greeter-contract][02-update-greeter-contract]]
+**** Some issues
+- Hardcoded providers, signers & accounts
+- Hardcoded network
+- Frontend components (connect & tx status, etc)
+*** Overview of the Ralph PL
+- Data types
+- Builtin functions
+- Assets approve system (what is the proper name?)
+- Events
+- Subcontract
+- Inheritance
+- Constants
+- Assertions
+- Endpoints to compile, etc (CLI?)
+*** Contract testing
+- Unit Test
+- Integration Tests
+*** CLI
+- Like hardhat, compile the entire project?
+- Getting configs, switch between configs?
+- Flattens contracts and their dependencies?
+- How to make it easier when it comes to IDE (at least for typescript)?
+  https://github.com/dethcrypto/TypeChain
+*** Best Practice
