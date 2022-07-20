@@ -1,9 +1,9 @@
 {
-  "sourceCodeSha256": "aaa72ae5b4c73edd09245da84341cf554e1084fa2327648300d07132358bf6ad",
-  "bytecode": "010109010000000102a00002",
-  "codeHash": "39debc1122591f4c96e2f807632acc6d137ea9bba303a4e04476cd8cade35242",
+  "sourceCodeSha256": "ae0214b11253d9dc2be8dc7e224b66057bf67e55846b9c484686b5900e0c6b05",
+  "bytecode": "01020913010000000102a000020100010100021600a100",
+  "codeHash": "c960716a08abfc6591c15db4c2eaf056391e470281af28e51c5619814ee0073f",
   "fieldsSig": {
-    "signature": "Contract Greeter(btcPrice:U256)",
+    "signature": "Contract Greeter(mut btcPrice:U256)",
     "names": [
       "btcPrice"
     ],
@@ -21,6 +21,17 @@
       "returnTypes": [
         "U256"
       ]
+    },
+    {
+      "name": "setBtcPrice",
+      "signature": "pub setBtcPrice(newBtcPrice:U256)->()",
+      "argNames": [
+        "newBtcPrice"
+      ],
+      "argTypes": [
+        "U256"
+      ],
+      "returnTypes": []
     }
   ]
 }

@@ -1,0 +1,9 @@
+import "greeter.ral"
+
+TxScript Main(
+    newPrice: U256,
+    greeterContractId: ByteVec
+) {
+    let greeter = Greeter(greeterContractId)
+    greeter.setBtcPrice(newPrice)
+}

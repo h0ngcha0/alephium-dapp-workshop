@@ -1,12 +1,14 @@
 {
-  "sourceCodeSha256": "0059ab3fc7602985ffbfe0b460e5b3daefe6088dfa17a0c420d7f139b4884e79",
-  "bytecodeTemplate": "01010300020014{0}17000c0d160001001343e82f0c7b{0}17010c0d160101001343e82f0c7b",
+  "sourceCodeSha256": "6d58f3675048991b5d1aaf072a311e7fa02d812fc0a9d3341cb0d5a49db6d966",
+  "bytecodeTemplate": "01010300010007{1}1700{0}0d0c16000101",
   "fieldsSig": {
-    "signature": "TxScript Main(greeterContractId:ByteVec)",
+    "signature": "TxScript Main(newPrice:U256,greeterContractId:ByteVec)",
     "names": [
+      "newPrice",
       "greeterContractId"
     ],
     "types": [
+      "U256",
       "ByteVec"
     ]
   },
