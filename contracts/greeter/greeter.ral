@@ -1,11 +1,17 @@
 import "greeter_interface.ral"
 
 Contract Greeter(mut btcPrice: U256) implements GreeterInterface {
+    event BtcPriceUpdated(
+        oldPrice: U256,
+        newPrice: U256
+    )
+
     pub fn greet() -> U256 {
         return btcPrice
     }
 
     pub fn setBtcPrice(newBtcPrice: U256) -> () {
+        emit BtcPriceUpdated(btcPrice, newBtcPrice)
         btcPrice = newBtcPrice
     }
 }

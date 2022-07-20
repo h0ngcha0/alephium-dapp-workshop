@@ -1,7 +1,7 @@
 {
-  "sourceCodeSha256": "ae0214b11253d9dc2be8dc7e224b66057bf67e55846b9c484686b5900e0c6b05",
-  "bytecode": "01020913010000000102a000020100010100021600a100",
-  "codeHash": "c960716a08abfc6591c15db4c2eaf056391e470281af28e51c5619814ee0073f",
+  "sourceCodeSha256": "bd87e57ad31adef25a621659d2a1226b65f300a0a86870bfae2b98e2889433af",
+  "bytecode": "01020919010000000102a0000201000101000605a00016005f1600a100",
+  "codeHash": "0d2200215a790bf192853599519100083383a7f27ce89af21ef640ab45529fa3",
   "fieldsSig": {
     "signature": "Contract Greeter(mut btcPrice:U256)",
     "names": [
@@ -11,7 +11,20 @@
       "U256"
     ]
   },
-  "eventsSig": [],
+  "eventsSig": [
+    {
+      "name": "BtcPriceUpdated",
+      "signature": "event BtcPriceUpdated(oldPrice:U256,newPrice:U256)",
+      "fieldNames": [
+        "oldPrice",
+        "newPrice"
+      ],
+      "fieldTypes": [
+        "U256",
+        "U256"
+      ]
+    }
+  ],
   "functions": [
     {
       "name": "greet",
