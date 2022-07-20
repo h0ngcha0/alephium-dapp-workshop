@@ -10,6 +10,7 @@ npm install @h0ngcha0/alephium-cli -g
 - [[https://github.com/h0ngcha0/alephium-dapp-workshop/tree/00-dapp-nextjs-boilerplate][00-dapp-nextjs-boilerplate]]
 - [[https://github.com/h0ngcha0/alephium-dapp-workshop/tree/01-add-greeter-contract][01-add-greeter-contract]]
 - [[https://github.com/h0ngcha0/alephium-dapp-workshop/tree/02-update-greeter-contract][02-update-greeter-contract]]
+- [[https://github.com/h0ngcha0/alephium-dapp-workshop/tree/03-greeter-with-events][03-greeter-with-events]]
 **** Some issues
 - Hardcoded providers, signers & accounts
 - Hardcoded network
@@ -17,13 +18,13 @@ npm install @h0ngcha0/alephium-cli -g
 *** Overview of the Ralph PL
 - Data types
 - Builtin functions
+  [[https://github.com/alephium/alephium/blob/master/protocol/src/main/scala/org/alephium/protocol/vm/Instr.scala#L122][Instr.scala]]
 - Assets approve system (what is the proper name?)
 - Events
-- Subcontract
+- Subcontract (map)
 - Inheritance
 - Constants
 - Assertions
-- Endpoints to compile, etc (CLI?)
 *** Contract testing
 - Unit Test
 - Integration Tests
